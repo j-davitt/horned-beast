@@ -69,3 +69,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # horned-beast
+
+### Lab 02
+
+Number and name of feature: #1 Display Images
+
+Estimate of time needed to complete: 20 mins
+
+Start time: 10:35
+
+Finish time: 10:43
+
+Actual time needed to complete: 8 mins
+
+Number and name of feature: #2 Allow Users to Favorite Individual Beasts
+
+Estimate of time needed to complete: 30 mins
+
+Start time: 11:00
+
+Finish time: 11:13
+
+Actual time needed to complete: 13 mins
+
+Number and name of feature: #3 Bootstrap
+
+Estimate of time needed to complete: 30 mins
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
