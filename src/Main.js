@@ -1,13 +1,17 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
+import data from './data/data.json';
 
 class Main extends React.Component{
   render(){
     return (
       <>
         <h3>Hello There!</h3>
-        <HornedBeast title="Uniwhal" imageUrl="http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg" alt="narwhal" description="A unicorn and a narwhal"/>
-        <HornedBeast title="Rhino Family" imageUrl="https://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80" alt="rhino" description="Parent rhino with babies"/>
+        <main>
+          {data.map(e => {
+            return <HornedBeast title={e.title} image_url={e.image_url} description={e.description} leyword={e.keyword}/>
+          })}
+        </main>
         
       </>
     )
