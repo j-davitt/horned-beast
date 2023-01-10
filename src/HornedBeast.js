@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 class HornedBeast extends React.Component{
   constructor(props){
@@ -18,13 +19,17 @@ class HornedBeast extends React.Component{
   render(){
     return (
       <>
-        <article>
-          <h2>{this.props.title}</h2>
-          <p>❤️{this.state.votes} favorites.</p>
-          <img src={this.props.image_url} alt={this.props.keyword}></img>
-          <p>{this.props.description}</p>
+        
+      <Card style={{ width: '18rem' }}>
+        <Card.Img variant="top" src={this.props.image_url} alt={this.props.keyword} />
+        <Card.Body>
+          <Card.Title>{this.props.title}</Card.Title>
+          <Card.Text>{this.props.description}</Card.Text>
+          <Card.Text>❤️{this.state.votes} favorites.</Card.Text>
           <Button onClick={this.handleVote} variant="danger">Favorite</Button>
-        </article>
+        </Card.Body>
+      </Card>
+        
       </>
     )
   }

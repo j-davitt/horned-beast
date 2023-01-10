@@ -10,7 +10,7 @@ class Main extends React.Component{
         <h3>Hello There!</h3>
         <main>
           {data.map(e => {
-            return <HornedBeast title={e.title} image_url={e.image_url} description={e.description} leyword={e.keyword}/>
+            return <HornedBeast title={e.title} image_url={e.image_url} description={e.description} keyword={e.keyword} key={e._id}/>
           })}
         </main>
         
