@@ -38,8 +38,8 @@ Number and name of feature: #1 Display a Modal
 
 Estimate of time needed to complete: 30 mins
 
-Start time: _____
+Start time: 12:00
 
-Finish time: _____
+Finish time: 1:15
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1hr15mins
