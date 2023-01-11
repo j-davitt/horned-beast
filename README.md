@@ -31,3 +31,15 @@ Start time: 11:25
 Finish time: 12:00
 
 Actual time needed to complete: 35 mins
+
+### Lab 03
+
+Number and name of feature: #1 Display a Modal
+
+Estimate of time needed to complete: 30 mins
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
