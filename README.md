@@ -1,6 +1,6 @@
 # horned-beast
 
-### Lab 02
+## Lab 02
 
 Number and name of feature: #1 Display Images
 
@@ -32,7 +32,7 @@ Finish time: 12:00
 
 Actual time needed to complete: 35 mins
 
-### Lab 03
+## Lab 03
 
 Number and name of feature: #1 Display a Modal
 
