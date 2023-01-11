@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 class SelectedBeast extends React.Component {
@@ -14,7 +13,7 @@ class SelectedBeast extends React.Component {
         <Modal show={this.props.showModal} onHide={this.props.handleCloseModal}>
           <Modal.Header closeButton></Modal.Header>
           <Modal.Body>
-            <img src={this.props.selectedBeast} alt='' width= '90%'></img>
+            <img src={this.props.selectedBeast} alt='' width='90%'></img>
             <p>{this.props.selectedBeastDesc}</p>
           </Modal.Body>
         </Modal>

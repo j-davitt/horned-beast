@@ -11,7 +11,7 @@ import Modal from 'react-bootstrap/Modal';
 
 // 2nd class component
 class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       showModal: false,
@@ -42,7 +42,7 @@ class App extends React.Component {
           data={data}
           handleOpenModal={this.handleOpenModal}
         />
-        <SelectedBeast 
+        <SelectedBeast
           Modal={Modal}
           // handleOpenModal={this.handleOpenModal}
           handleCloseModal={this.handleCloseModal}
